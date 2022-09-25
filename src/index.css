@@ -47,12 +47,7 @@
 }
 
 .bg-black-gradient {
-  background: linear-gradient(
-    145deg,
-    #c76767 -278.56%,
-    #d8c0c0 28.47%,
-    #96b8dd 91.61%
-  );
+  background: linear-gradient(145deg, #e3ffe7 0%, #7dcfc4 100%);
 }
 
 .bg-black-gradient-2 {
