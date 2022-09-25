@@ -11,28 +11,30 @@ function Navbar() {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`font-mono font-normal cursor-pointer text-[16px] ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
-            }  text-white mr-10`}
+            }  text-blue-800 text-base mr-10`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
       </ul>
 
+      {/* menu icons in mobile size*/}
       <div className="sm:hidden flex flex-1 justify-end items-center">
         {toggle ? (
           <FaRegWindowClose
-            className="w-[28px] h-[28px] object-contain text-white"
+            className="w-[32px] h-[32px] object-contain text-blue-800"
             onClick={() => setToggle((prev) => !prev)}
           />
         ) : (
           <FaBars
-            className="w-[28px] h-[28px] object-contain text-white"
+            className="w-[32px] h-[32px] object-contain text-blue-800"
             onClick={() => setToggle((prev) => !prev)}
           />
         )}
 
+        {/*mobile menu */}
         <div
           className={`${
             toggle ? "flex" : "hidden"
@@ -42,9 +44,9 @@ function Navbar() {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-normal cursor-pointer text-[16px] ${
+                className={`font-mono font-normal cursor-pointer text-[16px] ${
                   index === navLinks.length - 1 ? "mr-0" : "mb-4"
-                }  text-white mr-10`}
+                }  text-blue-800 text-base mr-10`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
