@@ -1,12 +1,14 @@
 import { useState } from "react";
 import { navLinks } from "../constants";
-import { FaRegWindowClose, FaBars } from "react-icons/fa";
+import { FaTimes, FaBars } from "react-icons/fa";
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <h3 className="w-[124px] h-[32px]">English with Anara</h3>
+      <h1 className="font-extrabold text-orange-500   text-xl">
+        English with Anara
+      </h1>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -23,7 +25,7 @@ function Navbar() {
       {/* menu icons in mobile size*/}
       <div className="sm:hidden flex flex-1 justify-end items-center">
         {toggle ? (
-          <FaRegWindowClose
+          <FaTimes
             className="w-[32px] h-[32px] object-contain text-blue-800"
             onClick={() => setToggle((prev) => !prev)}
           />

@@ -15,14 +15,14 @@ export const navLinks = [
     id: "about",
     title: "About Me",
   },
-  {
-    id: "news",
-    title: "Did you know?",
-  },
-  {
-    id: "comments",
-    title: "Comments",
-  },
+  // {
+  //   id: "news",
+  //   title: "Did you know?",
+  // },
+  // {
+  //   id: "comments",
+  //   title: "Comments",
+  // },
   {
     id: "contact",
     title: "Contact",
