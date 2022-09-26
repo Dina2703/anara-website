@@ -10,7 +10,7 @@ function Hero() {
       <div
         className={`flex-1 ${styles.flexStart} flex-col px-6 sm:px-16 xl:px-0`}
       >
-        <div className="flex flex-row items-center py-[6px] px-4  mb-2">
+        <div className="flex flex-row items-center py-[6px] px-4  mb-2 bg-discount-gradient rounded">
           <img
             src="https://www.pngplay.com/wp-content/uploads/8/Special-offer-Free-PNG.png"
             alt="british and kazakhstan flags"
@@ -25,7 +25,7 @@ function Hero() {
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text:[72px] text-[52px] text-white leading-[75px] ss:leading-[100px]">
             IT'S TIME <br className="hidden sm:block " /> TO LEARN <br />
-            <span className="text-gradient">ENGLISH</span>
+            <span className="text-info text-[70px]">ENGLISH</span>
           </h1>
           <div className="hidden ss:flex  md_mr-4 mr-o">
             <GetStarted />
