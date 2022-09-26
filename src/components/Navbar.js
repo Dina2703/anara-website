@@ -5,8 +5,8 @@ import { FaTimes, FaBars } from "react-icons/fa";
 function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <h1 className="font-extrabold text-white   text-xl">
+    <nav className="w-full flex py-6 justify-between items-center navbar ">
+      <h1 className="font-extrabold text-white text-2xl tracking-wider">
         English with Anara
       </h1>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
