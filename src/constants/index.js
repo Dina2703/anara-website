@@ -107,14 +107,14 @@ export const stats = [
   {
     id: "stats-7",
     title:
-      "English is the primary  for international education. English as a passport to success",
-    value: "star",
+      "of the world's technical and scientific periodicals are in English.",
+    value: "50%+",
   },
   {
     id: "stats-8",
     title:
-      "of the world's technical and scientific periodicals are in English.",
-    value: "50%+",
+      "English is the primary  for international education. English as a passport to success",
+    value: "star",
   },
 ];
 

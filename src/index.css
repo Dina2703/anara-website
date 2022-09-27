@@ -18,17 +18,29 @@
   scroll-behavior: smooth;
 }
 
-.text-gradient {
+/* .text-gradient {
   background: radial-gradient(
-    74.18% 34.18% at 53.16%,
-
-    #ffd54f 71.54%,
-    #ffb300 100%
+    54.18% 34.18% at 87.16% 55%,
+    #e3791c 71.54%,
+    #ffd54f 80%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
+} */
+
+.text-gradient {
+  background: -webkit-linear-gradient(
+    225deg,
+    #b45e20 20%,
+    #efbd25 62%,
+    #0d17d8 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 .bg-blue-gradient {
