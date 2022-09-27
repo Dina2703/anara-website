@@ -80,18 +80,41 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "countries have English as an official language",
+    value: "59",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "countries are spoken English",
+    value: "118",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "English native speakers",
+    value: "378 Million+",
+  },
+  {
+    id: "stats-4",
+    title: "second language speakers",
+    value: "743 Million+",
+  },
+
+  {
+    id: "stats-6",
+    title: "of the information stored in the World's computers is in English",
+    value: "80%",
+  },
+  {
+    id: "stats-7",
+    title:
+      "English is the primary  for international education. English as a passport to success",
+    value: "star",
+  },
+  {
+    id: "stats-8",
+    title:
+      "of the world's technical and scientific periodicals are in English.",
+    value: "50%+",
   },
 ];
 

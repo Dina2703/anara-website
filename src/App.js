@@ -9,6 +9,7 @@ import {
   ContactForm,
   Footer,
 } from "./components";
+import Stats from "./components/Stats";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
+          <Stats />
           <About />
           <Comments />
           <ClickAction />
