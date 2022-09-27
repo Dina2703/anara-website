@@ -16,12 +16,12 @@ module.exports = {
       },
     },
     screens: {
-      xs: "480px",
+      xs: "480px", //mobile
       ss: "620px",
-      sm: "768px",
-      md: "1060px",
-      lg: "1200px",
-      xl: "1700px",
+      sm: "768px", //tablet portait
+      md: "1060px", //tablet landscape
+      lg: "1200px", //laptop $ desktop displays
+      xl: "1700px", //bid desktops
     },
   },
   plugins: [],
