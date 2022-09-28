@@ -4,22 +4,22 @@ import GetStarted from "./GetStarted";
 
 const Featurecard = ({ title, img, content, index }) => (
   <div
-    className={`flex flex-row ${
-      index !== features.length - 1 ? "mb-2" : "mb-0"
+    className={`flex flex-row py-4 items-center ${
+      index !== features.length - 1 ? "mb-1" : "mb-0"
     } `}
   >
-    <div>
+    <div className="w-1/3 ">
       <img
         src={img}
         alt="benefits of online english learning"
-        className=" w-[58%] h-[60%] object-contain "
+        className=" w-[100%] h-[100%] object-contain "
       />
     </div>
-    <div className="flex-1 flex flex-col ">
-      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px]">
+    <div className="flex-1 flex flex-col  ml-3">
+      <h4 className="font-poppins font-semibold text-white  text-[15px] leading-[18px] mb-2">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">
+      <p className="font-poppins font-normal text-dimWhite text-[13px] leading-[24px]">
         {content}
       </p>
     </div>

@@ -57,30 +57,30 @@ export const features = [
   {
     id: "1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "In order to be fluent in English, every learner must develop the four language skills which are speaking, listening, writing and reading.",
     img: "./teacher.svg",
-    title: "Founder & Leader",
+    title: "Improvement of all four language skills",
   },
   {
     id: "2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "With online tutoring, you can tell your instructor which areas you have the most trouble with and ask for specialized lessons that will focus on each area separately.",
     img: "./online-learn1.svg",
-    title: "Founder & Leader",
+    title: "Focus on particular areas separatelys",
   },
   {
     id: "3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Another great benefit of online tutoring for learning advanced English is that the lessons are more engaging and interactive. This is because tutors have access to various digital tools that can make online classes enjoyable for everyone.",
     img: "./online-test.svg",
-    title: "Founder & Leader",
+    title: "Engaging and interactive lessons.",
   },
   {
     id: "4",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Study English online right from the comfort of your home. This means less commuting time and better opportunities to create a study space that inspires you and makes you feel comfortable.",
     img: "./books.svg",
-    title: "Founder & Leader",
+    title: " Greater flexibility and convenience",
   },
 ];
 
