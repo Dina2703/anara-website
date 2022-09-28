@@ -10,6 +10,7 @@ import {
   Footer,
 } from "./components";
 import Stats from "./components/Stats";
+import ProsEng from "./components/ProsEng";
 
 const App = () => {
   return (
@@ -27,7 +28,7 @@ const App = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
-
+          <ProsEng />
           <About />
           <Comments />
           <ClickAction />

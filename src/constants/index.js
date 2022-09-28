@@ -38,14 +38,14 @@ export const comments = [
       "very useful. i liked and enjoyed the journey of learning in these five weeks. the instructor is very clear and taught very interestingly. Thanks to her. she looked poised and cheerful and professional",
   },
   {
-    id: "feature-2",
+    id: "comment-2",
     icon: star,
     title: "Anara made english easy to understand. ",
     content:
       "I've benefited a lot by pursuing this course. Small pronunciation and word stress has been cleared. I would suggest non-English speakers to take up this course to enhance their English language skill.",
   },
   {
-    id: "feature-3",
+    id: "comment-3",
     icon: star,
     title: "She truly care about her students.",
     content:
@@ -53,26 +53,33 @@ export const comments = [
   },
 ];
 
-export const feedback = [
+export const features = [
   {
-    id: "feedback-1",
+    id: "1",
     content:
       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
+    img: "./teacher.svg",
     title: "Founder & Leader",
   },
   {
-    id: "feedback-2",
+    id: "2",
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
+    img: "./online-learn1.svg",
     title: "Founder & Leader",
   },
   {
-    id: "feedback-3",
+    id: "3",
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
+    img: "./online-test.svg",
+    title: "Founder & Leader",
+  },
+  {
+    id: "4",
+    content:
+      "It is usually people in the money business, finance, and international trade that are really rich.",
+    img: "./books.svg",
     title: "Founder & Leader",
   },
 ];
