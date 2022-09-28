@@ -91,12 +91,12 @@ export const stats = [
   {
     id: "stats-3",
     title: "English native speakers",
-    value: "378 Million+",
+    value: "378M+",
   },
   {
     id: "stats-4",
-    title: "second language speakers",
-    value: "743 Million+",
+    title: "Second language speakers",
+    value: "743M+",
   },
 
   {
@@ -104,17 +104,11 @@ export const stats = [
     title: "of the information stored in the World's computers is in English",
     value: "80%",
   },
+
   {
     id: "stats-7",
-    title:
-      "of the world's technical and scientific periodicals are in English.",
-    value: "50%+",
-  },
-  {
-    id: "stats-8",
-    title:
-      "English is the primary  for international education. English as a passport to success",
-    value: "star",
+    title: "English is the primary  for most international education.",
+    value: "⭐️",
   },
 ];
 
