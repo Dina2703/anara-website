@@ -3,7 +3,6 @@ import {
   FaInstagramSquare as instagram,
   FaLinkedin as linkedin,
   FaWhatsappSquare as whatsapp,
-  FaStar as star,
 } from "react-icons/fa";
 
 export const navLinks = [
@@ -29,27 +28,27 @@ export const navLinks = [
   },
 ];
 
-export const comments = [
+export const feedbacks = [
   {
-    id: "comment-1",
-    icon: star,
+    id: "1",
+
     title: "Thank you.",
     content:
       "very useful. i liked and enjoyed the journey of learning in these five weeks. the instructor is very clear and taught very interestingly. Thanks to her. she looked poised and cheerful and professional",
   },
   {
-    id: "comment-2",
-    icon: star,
+    id: "2",
+
     title: "Anara made english easy to understand. ",
     content:
       "I've benefited a lot by pursuing this course. Small pronunciation and word stress has been cleared. I would suggest non-English speakers to take up this course to enhance their English language skill.",
   },
   {
-    id: "comment-3",
-    icon: star,
+    id: "3",
+
     title: "She truly care about her students.",
     content:
-      "Very great program for ESL learner at intermediate level. I am looking for something at higher level. However, I found your course was very interesting. I have learned new communication skills for the very first time. Something that I thought I have already knew it. I will introduce your class to my international friends. Wish you all the best and your succeed in this program.",
+      "Very great program for ESL learner at intermediate level. I am looking for something at higher level. However, I found your course was very interesting. I have learned new communication skills for the very first time. ",
   },
 ];
 

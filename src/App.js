@@ -4,10 +4,10 @@ import {
   Navbar,
   Hero,
   About,
-  Comments,
   ClickAction,
   ContactForm,
   Footer,
+  Testimonials,
 } from "./components";
 import Stats from "./components/Stats";
 import ProsEng from "./components/ProsEng";
@@ -31,7 +31,7 @@ const App = () => {
 
           <ProsEng />
           <About />
-          <Comments />
+          <Testimonials />
           <ClickAction />
           <ContactForm />
           <Footer />
