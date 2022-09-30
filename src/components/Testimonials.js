@@ -8,7 +8,7 @@ const Testimonials = () => (
     className={`${styles.paddingY} ${styles.flexCenter} flex-col  `}
   >
     <div className="w-full flex justify-between items-center md:flex-row flex-col italic mb-1  ">
-      <h1 className={styles.heading1}>
+      <h1 className={`${styles.heading1} text-center `}>
         What parents of my students are <br className="hidden sm:block" />
         saying about the class
       </h1>

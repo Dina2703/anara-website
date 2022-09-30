@@ -14,7 +14,7 @@ function Footer() {
               className=" my-2 min-w-[100px] flex justify-center "
             >
               <a href={footerLink.link}>
-                <FaFacebookSquare />
+                <footerLink.icon className="text-[30px]" />
               </a>
             </div>
           ))}
