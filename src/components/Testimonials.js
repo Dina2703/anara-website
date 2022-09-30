@@ -7,8 +7,6 @@ const Testimonials = () => (
     id="clients"
     className={`${styles.paddingY} ${styles.flexCenter} flex-col  `}
   >
-    {/*gradient layout for cards */}
-    <div></div>
     <div className="w-full flex justify-between items-center md:flex-row flex-col italic mb-1  ">
       <h1 className={styles.heading1}>
         What parents of my students are <br className="hidden sm:block" />
@@ -16,7 +14,7 @@ const Testimonials = () => (
       </h1>
     </div>
 
-    <div className="flex flex-row flex-wrap justify-center md:justify-start feedback-container  ">
+    <div className="flex flex-row flex-wrap justify-center md:justify-start feedback-container ">
       {feedbacks.map((feedback) => (
         <FeedbackCard key={feedback.id} {...feedback} />
       ))}
