@@ -5,7 +5,7 @@ import { FaTimes, FaBars } from "react-icons/fa";
 function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar ">
+    <nav className="w-full h-[20px] flex py-6 justify-between items-center navbar bg-red-500  sticky top-0 z-100 shadow-xl">
       <h1 className="font-extrabold text-white text-2xl tracking-wider">
         English with Anara
       </h1>
@@ -13,8 +13,8 @@ function Navbar() {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-mono font-normal cursor-pointer hover:underline  text-[16px] ${
-              index === navLinks.length - 1 ? "mr-0" : "mr-10"
+            className={` font-normal cursor-pointer hover:underline  text-[14px] ${
+              index === navLinks.length - 1 ? "mr-0" : "mr-6"
             }  text-white text-base mr-10`}
           >
             <a href={`#${nav.id}`}>{nav.title}</a>

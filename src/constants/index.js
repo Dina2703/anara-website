@@ -2,6 +2,8 @@ import {
   FaFacebookSquare,
   FaInstagramSquare,
   FaWhatsappSquare,
+  FaPhoneSquareAlt,
+  FaEnvelope,
 } from "react-icons/fa";
 
 export const navLinks = [
@@ -10,20 +12,20 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "about",
+    id: "about-me",
     title: "About Me",
   },
-  // {
-  //   id: "news",
-  //   title: "Did you know?",
-  // },
+  {
+    id: "clients",
+    title: "Reviews",
+  },
   // {
   //   id: "comments",
   //   title: "Comments",
   // },
   {
-    id: "contact",
-    title: "Contact",
+    id: "features",
+    title: "Course",
   },
 ];
 
@@ -160,5 +162,15 @@ export const socialMedia = [
     id: "whatsapp",
     icon: FaWhatsappSquare,
     link: "https://wa.me/14042457101",
+  },
+  {
+    id: "phone",
+    icon: FaPhoneSquareAlt,
+    link: "tel:+YOURNUMBERHERE",
+  },
+  {
+    id: "mail",
+    icon: FaEnvelope,
+    link: "mailto:idrissova.dinara@list.ru",
   },
 ];

@@ -25,7 +25,6 @@ const App = () => {
           <ProsEng />
           <About />
           <Testimonials />
-
           <Footer />
           <SocialVerticalLinks />
         </div>
