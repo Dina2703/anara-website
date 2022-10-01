@@ -1,5 +1,4 @@
 import { socialMedia } from "../constants";
-import { FaFacebookSquare } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -21,8 +20,8 @@ function Footer() {
         </div>
       </div>
 
-      <p className="text-[14px] p-8 text-center ">
-        Copyright &copy; 2022. Website by
+      <p className="text-[12px] p-6 text-center text-[#3B3B38] ">
+        Copyright &copy; 2022. All rights reserved. <br /> Website created by
         <a
           className="underline pl-1"
           target="_blank"
@@ -31,7 +30,7 @@ function Footer() {
         >
           Dinara Idrissova
         </a>
-        . <br /> All rights reserved.
+        .
       </p>
     </section>
   );
