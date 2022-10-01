@@ -3,7 +3,7 @@ import { socialMedia } from "../constants";
 function Footer() {
   return (
     <section id="footer">
-      <div className="border-t-2 border-dimWhite w-[200vw] -ml-[200px]"></div>
+      <div className="shadow-inner h-[18px]  w-[200vw] -ml-[200px] "></div>
       <h2
         className="w-full text-center mt-4 font-bold text-white
       "
@@ -26,7 +26,7 @@ function Footer() {
         </div>
       </div>
 
-      <p className="text-[12px] p-6 text-center text-[#3B3B38] ">
+      <p className="text-[12px] p-3 text-center text-[#3B3B38] ">
         Copyright &copy; 2022. All rights reserved. <br /> Website created by
         <a
           className="underline pl-1"

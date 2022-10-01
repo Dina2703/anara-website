@@ -3,7 +3,7 @@ import GetStarted from "./GetStarted";
 
 function Hero() {
   return (
-    <section id="home" className="md:mx-12">
+    <section id="home" className="md:mx-12 pt-5">
       <div className={`flex flex-col sm:flex-row  `}>
         <div
           className={`flex-1 ${styles.flexStart} flex-col px-6 sm:pl-16 lg:px-0`}
