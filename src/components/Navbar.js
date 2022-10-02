@@ -1,13 +1,34 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { navLinks } from "../constants";
 import { FaTimes, FaBars } from "react-icons/fa";
 import styles from "../style";
 
 function Navbar() {
-  const [toggle, setToggle] = useState(false);
+  const ref = useRef();
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const checkIfClickedOutside = (e) => {
+      // If the menu is open and the clicked target is not within the menu,
+      // then close the menu
+      if (isMenuOpen && ref.current && !ref.current.contains(e.target)) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", checkIfClickedOutside);
+
+    return () => {
+      // Cleanup the event listener
+      document.removeEventListener("mousedown", checkIfClickedOutside);
+    };
+  }, [isMenuOpen]);
+
   return (
     <nav
-      className={`${styles.paddingX} ${styles.flexCenter} w-full  flex pt-6 pb-4  bg-primary shadow-lg justify-between items-center  sticky top-0 z-[100] cursor-pointer`}
+      ref={ref}
+      className={`${styles.paddingX} ${styles.flexCenter} w-full  flex pt-6 pb-4  bg-primary shadow-lg justify-between items-center  sticky top-0 z-[100] cursor-pointer `}
     >
       <div className={`${styles.boxWidth} flex`}>
         <h1 className="font-extrabold text-white text-2xl tracking-wider sm:pl-[50px]">
@@ -28,22 +49,22 @@ function Navbar() {
 
         {/* menu icons in mobile size*/}
         <div className="sm:hidden flex flex-1 justify-end items-center">
-          {toggle ? (
+          {isMenuOpen ? (
             <FaTimes
               className="w-[32px] h-[32px] object-contain text-white"
-              onClick={() => setToggle((prev) => !prev)}
+              onClick={() => setIsMenuOpen((prev) => !prev)}
             />
           ) : (
             <FaBars
               className="w-[32px] h-[32px] object-contain text-white"
-              onClick={() => setToggle((prev) => !prev)}
+              onClick={() => setIsMenuOpen((prev) => !prev)}
             />
           )}
 
           {/*mobile menu */}
           <div
             className={`${
-              toggle ? "flex" : "hidden"
+              isMenuOpen ? "flex" : "hidden"
             } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar `}
           >
             <ul className="list-none flex flex-col justify-end items-center flex-1">
