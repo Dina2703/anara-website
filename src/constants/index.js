@@ -35,7 +35,7 @@ export const feedbacks = [
 
     title: "Thank you.",
     content:
-      "very useful. i liked and enjoyed the journey of learning in these five weeks. the instructor is very clear and taught very interestingly. Thanks to her. she looked poised and cheerful and professional",
+      "I liked and enjoyed the journey of learning in these five weeks. the instructor is very clear and taught very interestingly. Thanks to her. she looked poised and cheerful and professional",
   },
   {
     id: "2",
