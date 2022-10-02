@@ -28,17 +28,17 @@ function Navbar() {
   return (
     <nav
       ref={ref}
-      className={`${styles.paddingX} ${styles.flexCenter} w-full  flex pt-6 pb-4  bg-primary shadow-lg justify-between items-center  sticky top-0 z-[100] cursor-pointer `}
+      className={`${styles.paddingX} ${styles.flexCenter} w-full  flex pt-5 pb-4  bg-primary shadow-lg justify-center items-center  sticky top-0 z-[100] cursor-pointer `}
     >
       <div className={`${styles.boxWidth} flex`}>
-        <h1 className="font-extrabold text-white text-2xl tracking-wider sm:pl-[50px]">
+        <h1 className="font-extrabold text-white text-2xl sm:text-3xl tracking-wider ">
           English with Anara
         </h1>
-        <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+        <ul className="list-none sm:flex hidden justify-end items-center flex-1  ">
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
-              className={` font-normal cursor-pointer hover:underline  text-[14px] ${
+              className={` font-normal cursor-pointer hover:underline  text-[14px]  ${
                 index === navLinks.length - 1 ? "mr-0" : "mr-6"
               }  text-white text-base mr-10`}
             >

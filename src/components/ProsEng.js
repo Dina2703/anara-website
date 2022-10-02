@@ -28,7 +28,7 @@ const Featurecard = ({ title, img, content, index }) => (
 
 function ProsEng() {
   return (
-    <section id="features" className={layout.section}>
+    <section id="features" className={`${layout.section} pt-16`}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           5 Benefits of Online Tutoring for{" "}

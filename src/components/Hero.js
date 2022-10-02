@@ -1,19 +1,16 @@
 import styles from "../style";
 import GetStarted from "./GetStarted";
+import { FaGift } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section id="home" className="md:mx-12 pt-5">
+    <section id="home" className="md:mx-12 pt-15 ">
       <div className={`flex flex-col sm:flex-row  `}>
         <div
           className={`flex-1 ${styles.flexStart} flex-col px-6 sm:pl-16 lg:px-0`}
         >
-          <div className="flex flex-row items-center py-[6px] px-4  mb-4 mr-3 bg-discount-gradient rounded ">
-            <img
-              src="https://www.pngplay.com/wp-content/uploads/8/Special-offer-Free-PNG.png"
-              alt="free first lesson"
-              className="w-[52px] h-[52px] object-fill"
-            />
+          <div className="flex flex-row items-center py-[6px] px-4  mb-4 mr-3 bg-discount-gradient rounded mt-4">
+            <FaGift className="w-[48px] h-[48px] text-white" />
             <p className={`${styles.paragraph} ml-2 `}>
               <span>Free </span>
               trial lesson. <span>Sign up for the lesson today!</span>
