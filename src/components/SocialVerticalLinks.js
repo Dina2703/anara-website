@@ -1,6 +1,6 @@
 const SocialVerticalLinks = () => (
   <section>
-    <div className="fixed left-0 top-1/4 z-50 px-3 py-3 bg-transparent flex flex-col space-y-3">
+    <div className="fixed left-0 top-1/4 z-50 px-2 py-3 bg-transparent flex flex-col space-y-3">
       <a href="https://www.facebook.com/" title="Share on Facebook">
         <svg
           className="fill-blue-700 text-white"
