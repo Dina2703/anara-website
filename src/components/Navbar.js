@@ -30,7 +30,7 @@ function Navbar() {
       ref={ref}
       className={`${styles.paddingX} ${styles.flexCenter} w-full  flex pt-5 pb-4  bg-primary shadow-lg justify-center items-center  sticky top-0 z-[100] cursor-pointer `}
     >
-      <div className={`${styles.boxWidth} flex`}>
+      <div className={`${styles.boxWidth} flex w-[90%] md:w-[80%] `}>
         <h1 className="font-extrabold text-white text-2xl sm:text-3xl tracking-wider ">
           English with Anara
         </h1>
@@ -38,11 +38,13 @@ function Navbar() {
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
-              className={` font-normal cursor-pointer hover:underline  text-[14px]  ${
-                index === navLinks.length - 1 ? "mr-0" : "mr-6"
-              }  text-white text-base mr-10`}
+              className={`font-normal cursor-pointer hover:underline  ${
+                index === navLinks.length - 1 ? "mr-10" : "mr-5"
+              }  text-white text-base `}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={`#${nav.id}`} className="text-[14px] md:text-[18px]">
+                {nav.title}
+              </a>
             </li>
           ))}
         </ul>
