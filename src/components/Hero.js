@@ -21,9 +21,11 @@ function Hero() {
           </div>
 
           <div className="flex flex-row  justify-between text-center sm:text-left items-center w-full">
-            <h1 className="flex-1 font-poppins font-semibold ss:text:[72px] text-[52px] text-white leading-[65px] ss:leading-[75px]">
+            <h1 className="flex-1 font-poppins font-semibold sm:text-[48px] text-[42px] text-white leading-[55px] ss:leading-[75px]">
               IT'S TIME <br className="hidden sm:block " /> TO LEARN <br />
-              <span className="text-info text-[70px]  ">ENGLISH</span>
+              <span className="text-info text-[50px] sm:text-[70px] ">
+                ENGLISH
+              </span>
             </h1>
           </div>
         </div>
@@ -36,7 +38,7 @@ function Hero() {
           />
         </div>
       </div>
-      <p className="text-white px-16 text-sm text-center">
+      <p className="text-white px-16 text-xs sm:text-sm  text-center">
         Это язык науки, авиации, компьютеров, дипломатии и туризма. И последнее,
         но не менее важное: это язык международного общения, средств массовой
         информации и Интернета. Будь то по профессиональным или личным причинам,
