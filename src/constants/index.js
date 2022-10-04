@@ -1,9 +1,9 @@
 import {
-  FaFacebookSquare,
   FaInstagramSquare,
   FaWhatsappSquare,
   FaPhoneSquareAlt,
   FaEnvelope,
+  FaTiktok,
 } from "react-icons/fa";
 
 export const navLinks = [
@@ -21,11 +21,11 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "про Курс",
+    title: "Курсы",
   },
   {
     id: "contact",
-    title: "Контакт",
+    title: "Контакты",
   },
 ];
 
@@ -155,9 +155,9 @@ export const socialMedia = [
     link: "https://www.instagram.com/",
   },
   {
-    id: "facebook",
-    icon: FaFacebookSquare,
-    link: "https://www.facebook.com/",
+    id: "tiktok",
+    icon: FaTiktok,
+    link: "https://www.tiktok.com/",
   },
   {
     id: "whatsapp",
