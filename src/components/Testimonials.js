@@ -9,8 +9,8 @@ const Testimonials = () => (
   >
     <div className="w-full flex justify-between items-center md:flex-row flex-col italic mb-1  ">
       <h1 className={`${styles.heading1} text-center `}>
-        What parents of my students are <br className="hidden sm:block" />
-        saying about the class
+        Что говорят о наших уроках мои ученики и их родители{" "}
+        <span className="ml-3"></span>&gt; &gt;
       </h1>
     </div>
 

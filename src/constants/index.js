@@ -36,6 +36,10 @@ export const feedbacks = [
     title: "Thank you.",
     content:
       "I liked and enjoyed the journey of learning in these five weeks. the instructor is very clear and taught very interestingly. Thanks to her. she looked poised and cheerful and professional",
+    user: {
+      name: "Student1",
+      age: 10,
+    },
   },
   {
     id: "2",
@@ -43,6 +47,10 @@ export const feedbacks = [
     title: "Anara made english easy to understand. ",
     content:
       "I've benefited a lot by pursuing this course. Small pronunciation and word stress has been cleared. I would suggest non-English speakers to take up this course to enhance their English language skill.",
+    user: {
+      name: "Student2",
+      age: 8,
+    },
   },
   {
     id: "3",
@@ -50,6 +58,10 @@ export const feedbacks = [
     title: "She truly care about her students.",
     content:
       "Very great program for ESL learner at intermediate level. I am looking for something at higher level. However, I found your course was very interesting. I have learned new communication skills for the very first time. ",
+    user: {
+      name: "Student3",
+      age: 2,
+    },
   },
 ];
 
