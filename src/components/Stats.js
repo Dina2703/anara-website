@@ -4,7 +4,9 @@ import styles from "../style";
 const Stats = () => (
   <>
     <div className="  text-center my-6  font-bold bg-white  rounded-tl-xl rounded-br-xl -skew-x-12 bg-opacity-50 mx-20 py-2">
-      <h1 className="text-gradient text-2xl ">Did you know?</h1>
+      <h1 className="text-gradient text-2xl ">
+        Почему так важно изучать английский?
+      </h1>
     </div>
     <section
       className={`${styles.flexCenter} flex-row flex-wrap sm:mb-2 grid md:grid-cols-3 gap-2 xs:grid-cols-2 grid-cols-1`}

@@ -9,23 +9,23 @@ import {
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Главное",
   },
   {
     id: "about-me",
-    title: "About Me",
+    title: "обо Mне",
   },
   {
     id: "clients",
-    title: "Reviews",
+    title: "Отзывы",
   },
-  // {
-  //   id: "comments",
-  //   title: "Comments",
-  // },
   {
     id: "features",
-    title: "Course",
+    title: "про Курс",
+  },
+  {
+    id: "contact",
+    title: "Контакт",
   },
 ];
 
@@ -87,34 +87,35 @@ export const features = [
 export const stats = [
   {
     id: "stats-1",
-    title: "countries have English as an official language",
+    title: "страны имеют английский в качестве официального языка",
     value: "59",
   },
   {
     id: "stats-2",
-    title: "countries are spoken English",
+    title: "страны говорят на английском языке",
     value: "118",
   },
   {
     id: "stats-3",
-    title: "English native speakers",
+    title: "носители английского языка",
     value: "378M+",
   },
   {
     id: "stats-4",
-    title: "Second language speakers",
+    title: "людей второй язык считается английский",
     value: "743M+",
   },
 
   {
     id: "stats-6",
-    title: "of the information stored in the World's computers is in English",
+    title: "информации, хранящейся в компьютерах мира, на английском языке",
     value: "80%",
   },
 
   {
     id: "stats-7",
-    title: "English is the primary  for most international education.",
+    title:
+      "Английский язык является основным для большей части международного образования.",
     value: "⭐️",
   },
 ];

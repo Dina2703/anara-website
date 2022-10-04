@@ -12,8 +12,11 @@ function Hero() {
           <div className="flex flex-row items-center py-[6px] px-4  mb-4 mr-3 bg-discount-gradient rounded mt-4">
             <FaGift className="w-[48px] h-[48px] text-white" />
             <p className={`${styles.paragraph} ml-2 `}>
-              <span>Free </span>
-              trial lesson. <span>Sign up for the lesson today!</span>
+              <span> Бесплатный </span>
+              пробный урок!!! <br />
+              <span>И тестирование уровня английского языка!</span>
+              <br />
+              Запишись сегодня!!!
             </p>
           </div>
 
@@ -34,11 +37,10 @@ function Hero() {
         </div>
       </div>
       <p className="text-white px-16 text-sm text-center">
-        It is the language of science, aviation, computers, diplomacy and
-        tourism. Last but not least, it is the language of international
-        communication, the media and the internet. Whether it is for
-        professional or personal reasons, understanding the importance of
-        English will help you reach your goals.
+        Это язык науки, авиации, компьютеров, дипломатии и туризма. И последнее,
+        но не менее важное: это язык международного общения, средств массовой
+        информации и Интернета. Будь то по профессиональным или личным причинам,
+        понимание важности английского языка поможет вам достичь ваших целей.
       </p>
       <div className={`${styles.flexCenter} `}>
         <GetStarted />

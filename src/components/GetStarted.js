@@ -1,5 +1,5 @@
 import styles from "../style";
-import { FiArrowUpRight } from "react-icons/fi";
+import { FaRegEnvelope } from "react-icons/fa";
 
 function GetStarted() {
   return (
@@ -9,10 +9,12 @@ function GetStarted() {
       <div>
         <div className={`${styles.flexStart} flex-row`}>
           <p className="font-poppins font-medium text-[17px] ">
-            <span className="text-info">GET STARTED</span>
+            <span className="text-info uppercase tracking-wider font-semibold">
+              отправить сообщение
+            </span>
           </p>
           <span className="text-[25px] ml-[6px]">
-            <FiArrowUpRight color="white" />
+            <FaRegEnvelope className="ml-2 text-info" />
           </span>
         </div>
       </div>
