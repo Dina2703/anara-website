@@ -2,7 +2,7 @@ import styles, { layout } from "../style";
 
 function About() {
   return (
-    <section id="about-me" className={`${layout.section} pt-16`}>
+    <section className={`${layout.section} pt-6`}>
       <div className={layout.sectionImgReverse}>
         <img
           className="w-[100%] h-[100%]  mt-2"

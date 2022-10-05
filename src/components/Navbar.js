@@ -34,7 +34,7 @@ function Navbar() {
         <h1 className="font-extrabold text-white text-2xl sm:text-3xl tracking-wider ">
           English with Anara
         </h1>
-        <ul className="list-none sm:flex hidden justify-end items-center flex-1  ">
+        <ul className="list-none sm:flex hidden justify-end items-end flex-1  uppercase">
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
@@ -42,7 +42,7 @@ function Navbar() {
                 index === navLinks.length - 1 ? "mr-10" : "mr-5"
               }  text-white text-base `}
             >
-              <a href={`#${nav.id}`} className="text-[14px] md:text-[18px]">
+              <a href={`#${nav.id}`} className="text-[12px] md:text-[14px]">
                 {nav.title}
               </a>
             </li>

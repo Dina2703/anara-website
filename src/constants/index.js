@@ -21,7 +21,7 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Курсы",
+    title: "о Курсе",
   },
   {
     id: "contact",

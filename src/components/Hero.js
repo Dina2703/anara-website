@@ -44,7 +44,7 @@ function Hero() {
         информации и Интернета. Будь то по профессиональным или личным причинам,
         понимание важности английского языка поможет вам достичь ваших целей.
       </p>
-      <div className={`${styles.flexCenter} `}>
+      <div className={`${styles.flexCenter} `} id="about-me">
         <GetStarted />
       </div>
     </section>
