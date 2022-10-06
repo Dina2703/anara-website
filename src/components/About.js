@@ -7,7 +7,7 @@ function About() {
         <img
           className="w-[100%] h-[100%]  mt-2"
           src="https://img.freepik.com/free-vector/cartoon-businesswoman-working-with-laptop-gesture-pose-clip-art_40876-3410.jpg?w=2000&t=st=1664451705~exp=1664452305~hmac=c06d9974cd5aba53da2838092b9a47986c9f274f00a46982bee330fddb24b7b0"
-          alt="anara english teacher"
+          alt="anara english teacher Анара учитель английского языка"
         />
       </div>
       <div className={`${layout.sectionInfo} text-center`}>

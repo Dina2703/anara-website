@@ -11,7 +11,7 @@ const Featurecard = ({ title, img, content, index }) => (
     <div className="w-1/3 ">
       <img
         src={img}
-        alt="benefits of online english learning"
+        alt="индивидуальный и групповой английский курс с учителем"
         className=" w-[100%] h-[100%] object-contain "
       />
     </div>

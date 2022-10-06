@@ -33,7 +33,7 @@ function Hero() {
         <div className={`flex-1 flex ${styles.flexCenter} my-2 md:my-0 `}>
           <img
             src="./hero-2.jpg"
-            alt="learn-english"
+            alt="английский класс для детей и взрослых"
             className="  w-[65%] h-[100%] sm:w-[90%] sm:h-[100%] md:w-[100%] sm:h-[80%] border-4 sm:mr-16 border-amber-200 border-y-amber-400 rounded"
           />
         </div>
