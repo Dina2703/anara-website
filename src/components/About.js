@@ -11,7 +11,7 @@ function About() {
         />
       </div>
       <div className={`${layout.sectionInfo} text-center`}>
-        <h2 className={styles.heading2}>About me</h2>
+        <h2 className={styles.heading2}>Немного о себе</h2>
         <p className={`${styles.paragraph} md:max-w-[470px] mt-3`}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
           optio dolorem in ab, reiciendis minus blanditiis repellendus quis

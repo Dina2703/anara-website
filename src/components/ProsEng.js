@@ -31,16 +31,17 @@ function ProsEng() {
     <section id="features" className={`${layout.section} pt-16`}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          5 Benefits of Online Tutoring for{" "}
-          <span className="bg-discount-gradient px-2 block max-w-[370px] tracking-wider">
-            Learning English
+          Как проходят <br /> наши уроки
+          <span className="bg-discount-gradient px-2 block max-w-[400px] tracking-wider italic">
+            английского языка
           </span>
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 `}>
-          Out of the many languages spoken around the world, English is today's
-          most universal one. It is the default language in various fields
-          including education, international business, tourism, technology and
-          many others.
+          Уроки проходят онлайн, это один из современных форматов обучения. Out
+          of the many languages spoken around the world, English is today's most
+          universal one. It is the default language in various fields including
+          education, international business, tourism, technology and many
+          others.
         </p>
         <GetStarted />
       </div>
