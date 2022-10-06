@@ -13,11 +13,10 @@ function About() {
       <div className={`${layout.sectionInfo} text-center`}>
         <h2 className={styles.heading2}>Немного о себе</h2>
         <p className={`${styles.paragraph} md:max-w-[470px] mt-3`}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
-          optio dolorem in ab, reiciendis minus blanditiis repellendus quis
-          consequuntur architecto quos commodi dolores ipsam nihil! Autem
-          asperiores fugiat velit, vel rem quis, sunt repellat deserunt magnam,
-          sint officiis voluptatibus corporis?
+          Преподавание — моя страсть, поэтому мне очень повезло, что я работаю в
+          сфере образования. Я понимающий, терпеливый и знаю, как разговаривать
+          с начинающими студентами. Во время урока я концентрируюсь на вас и
+          ваших способностях.
         </p>
       </div>
     </section>
