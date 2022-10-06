@@ -34,7 +34,7 @@ function Navbar() {
         <h1 className="font-extrabold text-white text-2xl sm:text-3xl tracking-wider ">
           English with Anara
         </h1>
-        <ul className="list-none sm:flex hidden justify-end items-end flex-1  uppercase">
+        <ul className="list-none md:flex hidden justify-end items-end flex-1  uppercase">
           {navLinks.map((nav, index) => (
             <li
               key={nav.id}
@@ -50,7 +50,7 @@ function Navbar() {
         </ul>
 
         {/* menu icons in mobile size*/}
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="md:hidden flex flex-1 justify-end items-center">
           {isMenuOpen ? (
             <FaTimes
               className="w-[32px] h-[32px] object-contain text-white"

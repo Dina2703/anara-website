@@ -37,11 +37,11 @@ function ProsEng() {
           </span>
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 `}>
-          Уроки проходят онлайн, это один из современных форматов обучения. Out
-          of the many languages spoken around the world, English is today's most
-          universal one. It is the default language in various fields including
-          education, international business, tourism, technology and many
-          others.
+          Уроки проходят онлайн, это один из современных форматов обучения.
+          Уроки проходят в группе из 4 детей или индивидуально. Можно цену
+          указать. Длительность каждого урока 40мин. Сама напиши сюда текст It
+          is the default language in various fields including education,
+          international business, tourism, technology and many others.
         </p>
         <GetStarted />
       </div>
