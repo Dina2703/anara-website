@@ -2,7 +2,7 @@ const SocialVerticalLinks = () => (
   <section>
     <div className="fixed flex left-0 top-1/4 z-50 px-3 py-2 bg-transparent flex flex-col space-y-3">
       <div className="flex justify-center ">
-        <a href="https://www.tiktok.com/" title="Share on Tiktok">
+        <a href="https://www.tiktok.com/" title="ищите в  Tiktok">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="35"
@@ -18,7 +18,7 @@ const SocialVerticalLinks = () => (
       </div>
 
       <div className="flex ">
-        <a href="https://wa.me/14042457101" title="Share on WhatsApp">
+        <a href="https://wa.me/14042457101" title="напишите в  WhatsApp">
           <svg
             className="fill-green-600 hover:fill-white m-auto"
             xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@ const SocialVerticalLinks = () => (
         </a>
       </div>
       <div className="flex">
-        <a href="https://www.instagram.com/" title="Share on Instagram">
+        <a href="https://www.instagram.com/" title="ищите в Instagram">
           <svg
             className="fill-red-100 hover:bg-slate-50 hover:rounded-[10px] m-auto"
             xmlns="http://www.w3.org/2000/svg"
