@@ -6,7 +6,7 @@ function About() {
       <div className={layout.sectionImgReverse}>
         <img
           className="w-[100%] h-[100%]  mt-2"
-          src="https://img.freepik.com/free-vector/cartoon-businesswoman-working-with-laptop-gesture-pose-clip-art_40876-3410.jpg?w=2000&t=st=1664451705~exp=1664452305~hmac=c06d9974cd5aba53da2838092b9a47986c9f274f00a46982bee330fddb24b7b0"
+          src="./anara01.jpeg"
           alt="anara english teacher Анара учитель английского языка"
         />
       </div>
@@ -19,7 +19,7 @@ function About() {
           английского языка посетила разные страны, это было очень
           познавательно. <br /> В настоящее время моя главная задача помочь как
           можно большенство детей выучить английский язык, чтобы они смогли
-          применять эти знания в достижении своих целей и быть успешными.
+          применять эти знания в достижении своих целей и стать успешными.
         </p>
         <div className="flex  mt-3">
           <div className="flex flex-col w-1/2 text-[16px] mx-4">
