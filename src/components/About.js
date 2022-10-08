@@ -1,16 +1,15 @@
 import styles, { layout } from "../style";
+import SlideShow from "./Carousel";
 
 function About() {
   return (
     <section className={`${layout.section} pt-6`}>
       <div className={layout.sectionImgReverse}>
-        <img
-          className="w-[100%] h-[100%]  mt-2"
-          src="./anara01.jpeg"
-          alt="anara english teacher Анара учитель английского языка"
-        />
+        <div className="w-[80%] h-[100%]  mt-2">
+          <SlideShow />
+        </div>
       </div>
-      <div className={`${layout.sectionInfo} text-center`}>
+      <div className={`${layout.sectionInfo} text-center mt-4 md:mt-0`}>
         <h2 className={styles.heading1}>Немного о себе</h2>
         <p className={`${styles.paragraph} md:max-w-[470px] mt-3`}>
           Меня зовут Анара. Я дипломированный учитель английского языка. Я очень
