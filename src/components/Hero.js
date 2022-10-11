@@ -10,8 +10,8 @@ function Hero() {
           className={`flex-1 ${styles.flexStart} flex-col px-6 sm:pl-16 lg:px-6`}
         >
           <div className="flex flex-row items-center py-[6px] px-4  mb-4 mr-3 bg-discount-gradient rounded mt-4">
-            <FaGift className="w-[48px] h-[48px] text-white" />
-            <p className={`${styles.paragraph} ml-4 `}>
+            <FaGift className="w-[28px] h-[28px] sm:w-[48px] sm:h-[48px] text-white" />
+            <p className="font-poppins font-normal text-dimWhite sm:text-[18px] sm:leading-[24.8px]  ml-4 text-[12px] leading-[10.8px] ">
               <span> Бесплатный </span>
               пробный урок!!! <br />
               <span>И тестирование уровня английского языка!</span>
