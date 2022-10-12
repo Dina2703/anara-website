@@ -6,7 +6,7 @@ import { feedbacks } from "../constants";
 import "swiper/css";
 import "swiper/css/pagination";
 
-export default function Reviews() {
+export default function SwiperReviews() {
   return (
     <div className=" w-[100%] ">
       <Swiper
@@ -16,8 +16,8 @@ export default function Reviews() {
         pagination={true}
       >
         {feedbacks.map((feedback) => (
-          <SwiperSlide>
-            <FeedbackCard key={feedback.id} {...feedback} />
+          <SwiperSlide key={feedback.id}>
+            <FeedbackCard {...feedback} />
           </SwiperSlide>
         ))}
       </Swiper>

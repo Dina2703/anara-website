@@ -3,7 +3,8 @@ import { Navbar, Hero, About, Footer, Testimonials } from "./components";
 import Stats from "./components/Stats";
 import ProsEng from "./components/ProsEng";
 import SocialVerticalLinks from "./components/SocialVerticalLinks";
-import Reviews from "./components/SwiperReviews";
+import SwiperReviews from "./components/SwiperReviews";
+import AboutEduc from "./components/AboutEduc";
 
 const App = () => {
   return (
@@ -20,10 +21,11 @@ const App = () => {
           <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
               <About />
+              <AboutEduc />
               <Stats />
               <ProsEng />
 
-              <Reviews />
+              <SwiperReviews />
               <Footer />
               <SocialVerticalLinks />
             </div>
