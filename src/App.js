@@ -1,5 +1,5 @@
 import styles from "./style";
-import { Navbar, Hero, About, Footer, Testimonials } from "./components";
+import { Navbar, Hero, About, Footer } from "./components";
 import Stats from "./components/Stats";
 import ProsEng from "./components/ProsEng";
 import SocialVerticalLinks from "./components/SocialVerticalLinks";
@@ -22,10 +22,8 @@ const App = () => {
             <div className={`${styles.boxWidth}`}>
               <About />
               <AboutEduc />
-
               <Stats />
               <ProsEng />
-
               <SwiperReviews />
               <Footer />
               <SocialVerticalLinks />

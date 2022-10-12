@@ -1,6 +1,6 @@
 const SocialVerticalLinks = () => (
   <section>
-    <div className="fixed flex left-0 top-1/4 z-50 px-3 py-2 bg-transparent flex flex-col space-y-3">
+    <div className="fixed flex left-0 top-1/4 z-50 px-3 sm:px-10 py-2 bg-transparent flex flex-col space-y-3">
       <div className="flex justify-center ">
         <a href="https://www.tiktok.com/" title="ищите в  Tiktok">
           <svg

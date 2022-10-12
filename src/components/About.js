@@ -5,7 +5,7 @@ function About() {
   return (
     <section className={`${layout.section} pt-6`}>
       <div className={layout.sectionImgReverse}>
-        <div className="w-[90%] h-[100%]  ">
+        <div className="w-[75%] h-[100%]  ">
           <SlideShow />
         </div>
       </div>
