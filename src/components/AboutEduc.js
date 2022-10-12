@@ -2,8 +2,8 @@ import React from "react";
 
 function AboutEduc() {
   return (
-    <div className="flex flex-row mb-10 mx-10 text-center px-8  justify-between">
-      <div className="flex flex-col  sm:text-[20px] text-[16px]  ">
+    <div className="flex  md:flex-row flex-col mb-2 sm:mb-5 sm:mx-10 text-center px-8  justify-between">
+      <div className="flex flex-col   sm:text-[20px] text-[16px]  ">
         <h3 className="font-bold text-white mb-2">Факты обо мне</h3>
         <ul className="text-justify italic text-dimWhite list-disc text-[14px]  sm:text-[18px]">
           <li>Говорю свободно на 4 языках.</li>
@@ -11,7 +11,7 @@ function AboutEduc() {
           <li>Мама двух прекрасных мальчиков </li>
         </ul>
       </div>
-      <div className="flex flex-col sm:text-[20px] text-[16px]  text-sm mx-4">
+      <div className="flex flex-col sm:text-[20px] text-[16px]  text-sm mx-4 mt-6 md:mt-0">
         <h3 className="font-bold  text-white mb-2">Образование:</h3>
         <ul className="text-justify italic text-dimWhite list-disc text-[14px]  sm:text-[18px]">
           <li>Университет КазУМОиМЯ им. Абылай хана, Алматы.</li>

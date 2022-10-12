@@ -2,7 +2,7 @@ import { stats } from "../constants";
 import styles from "../style";
 
 const Stats = () => (
-  <>
+  <div className="hidden md:block">
     <div className=" text-center my-4  font-bold bg-white  rounded-tl-xl rounded-br-xl -skew-x-12 bg-opacity-50 mx-20 p-4">
       <h1 className="text-gradient text-md sm:text-2xl ">
         Почему так важно изучать английский?
@@ -25,7 +25,7 @@ const Stats = () => (
         </div>
       ))}
     </section>
-  </>
+  </div>
 );
 
 export default Stats;
