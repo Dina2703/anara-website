@@ -19,7 +19,7 @@ const Stats = () => (
           <h4 className="font-poppins font-semibold sm:text-[17px] text-[13px]  text-amber-600 italic pr-2">
             {stat.value}
           </h4>
-          <p className="font-poppins font-normal sm:text-[10px] text-[8px] uppercase  text-white">
+          <p className="font-poppins font-normal sm:text-[12px] text-[8px] uppercase  text-white">
             {stat.title}
           </p>
         </div>

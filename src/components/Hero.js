@@ -20,7 +20,7 @@ function Hero() {
             </p>
           </div>
 
-          <div className="flex flex-row  justify-between text-center sm:text-left items-center w-full">
+          <div className="flex flex-row  justify-between text-center sm:text-left items-center w-full ">
             <h1 className="flex-1 font-poppins font-semibold sm:text-[48px] text-[42px] text-white leading-[55px] ss:leading-[75px]">
               IT'S TIME <br className="hidden sm:block " /> TO LEARN <br />
               <span className="text-info text-[50px] sm:text-[70px] ">
@@ -38,7 +38,7 @@ function Hero() {
           />
         </div>
       </div>
-      <p className="text-white px-14 text-xs sm:text-sm  text-center tracking-wider">
+      <p className="font-poppins text-dimWhite px-14 text-xs sm:text-sm  text-center tracking-wider">
         Современный мир сейчас невозможен без знания английского языка. Знание
         английского языка открывает перед человеком широкую картину мира,
         возможность получить образование за границей, найти престижную работу и
