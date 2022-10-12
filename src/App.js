@@ -1,9 +1,9 @@
 import styles from "./style";
-
 import { Navbar, Hero, About, Footer, Testimonials } from "./components";
 import Stats from "./components/Stats";
 import ProsEng from "./components/ProsEng";
 import SocialVerticalLinks from "./components/SocialVerticalLinks";
+import Reviews from "./components/SwiperReviews";
 
 const App = () => {
   return (
@@ -23,7 +23,7 @@ const App = () => {
               <Stats />
               <ProsEng />
 
-              <Testimonials />
+              <Reviews />
               <Footer />
               <SocialVerticalLinks />
             </div>
