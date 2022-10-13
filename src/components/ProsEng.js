@@ -8,7 +8,7 @@ const Featurecard = ({ title, img, content, index, link }) => (
       index !== features.length - 1 ? "mb-1" : "mb-0"
     } `}
   >
-    <div className="w-1/2 sm:w-1/3  my-5 sm:my-0">
+    <div className="w-[75%] sm:w-1/3  my-5 sm:my-0">
       <a href={link && link} alt={title} target="_blank" rel="noreferrer">
         <img
           src={img}
@@ -31,7 +31,7 @@ const Featurecard = ({ title, img, content, index, link }) => (
 function ProsEng() {
   return (
     <section id="features" className={`${layout.section} pt-16 `}>
-      <div className="flex flex-col flex-1 justify-between my-8  ">
+      <div className="flex flex-col flex-1 justify-between sm:my-8 my-1  ">
         <div className="space-y-6">
           <h2 className={styles.heading2}>
             Как проходят <br /> наши уроки
@@ -39,7 +39,7 @@ function ProsEng() {
               английского языка
             </span>
           </h2>
-          <p className={`${styles.paragraph} max-w-[470px] mt-5 `}>
+          <p className="font-poppins font-normal text-dimWhite text-[16px]  mt-5 ">
             Уроки проходят в группе или индивидуально. Длительность каждого
             урока 40мин.
           </p>

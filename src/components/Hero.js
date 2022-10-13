@@ -38,7 +38,7 @@ function Hero() {
           />
         </div>
       </div>
-      <p className="font-poppins text-dimWhite px-14 text-xs sm:text-sm  text-center tracking-wider">
+      <p className="font-poppins text-dimWhite px-14 text-[12px] sm:text-sm  text-center tracking-wider">
         Современный мир сейчас невозможен без знания английского языка. Знание
         английского языка открывает перед человеком широкую картину мира,
         возможность получить образование за границей, найти престижную работу и
