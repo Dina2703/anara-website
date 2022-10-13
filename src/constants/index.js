@@ -98,31 +98,35 @@ export const features = [
   {
     id: "1",
     content:
-      "In order to be fluent in English, every learner must develop the four language skills which are speaking, listening, writing and reading.",
-    img: "./teacher.svg",
-    title: "Improvement of all four language skills",
+      " Это один из современных форматов обучения.  Преимущества такого подхода: выбор удобного для вас времени,   не выходя из дома и экономия времени на дорогу. ",
+    img: "https://bridge.edu/tefl/blog/wp-content/uploads/2022/01/Structuring-Online-ESL-Lesson-Plans-blog-image.png",
+    title: "Уроки проходят онлайн ",
+    link: null,
   },
   {
     id: "2",
     content:
-      "With online tutoring, you can tell your instructor which areas you have the most trouble with and ask for specialized lessons that will focus on each area separately.",
-    img: "./online-learn1.svg",
-    title: "Focus on particular areas separatelys",
+      "Для эффективного изучения английского языка мы подкрепляем теорию практикой: употребляя новые слова в речи, читая изученные слова в контексте, слушая в аудио и видео. Таким способом будет проще запомнить новую лексику. Теория должна подкрепляться значительным объемом практики. ",
+    img: "https://cdn2.iconfinder.com/data/icons/iconustration-education-color/96/basic-education-listening-speaking-writing-reading-512.png",
+    title: "Теория без практики — ничто.",
+    link: null,
   },
+
   {
     id: "3",
     content:
-      "Another great benefit of online tutoring for learning advanced English is that the lessons are more engaging and interactive. This is because tutors have access to various digital tools that can make online classes enjoyable for everyone.",
-    img: "./online-test.svg",
-    title: "Engaging and interactive lessons.",
+      "Мы будем использовать увлекательные цифровые материалы в соответствии с уровнем знания и потребности ученика. Используя онлайн-ресурсы, такие как Online ESL Games ",
+    img: "./interactive-game.png",
+    title: "Увлекательные и интерактивные уроки.",
+    link: "https://www.gamestolearnenglish.com/",
   },
-  {
-    id: "4",
-    content:
-      "Study English online right from the comfort of your home. This means less commuting time and better opportunities to create a study space that inspires you and makes you feel comfortable.",
-    img: "./books.svg",
-    title: " Greater flexibility and convenience",
-  },
+  // {
+  //   id: "4",
+  //   content:
+  //     "Study English online right from the comfort of your home. This means less commuting time and better opportunities to create a study space that inspires you and makes you feel comfortable.",
+  //   img: "./books.svg",
+  //   title: " Greater flexibility and convenience",
+  // },
 ];
 
 export const stats = [
@@ -213,6 +217,6 @@ export const socialMedia = [
   {
     id: "mail",
     icon: FaEnvelope,
-    link: "mailto:idrissova.dinara@list.ru",
+    link: "mailto:anekasina@mail.ru",
   },
 ];

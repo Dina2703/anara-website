@@ -37,7 +37,7 @@ function Footer() {
           </a>
         </div>
         <div className="mb-6">
-          <a href="mailto:dinara.idrissova@list.ru">
+          <a href="mailto:anekasina@mail.ru">
             <div className="flex gap-3 items-center justify-center text-dimWhite mb-2">
               <FaRegEnvelope className="text-[24px]" /> электронная почта
             </div>

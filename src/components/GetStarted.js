@@ -5,21 +5,21 @@ import { BsWhatsapp } from "react-icons/bs";
 function GetStarted() {
   return (
     <div
-      className={`${styles.flexCenter} bg-teal-100 my-4 sm:pr-3 py-4 rounded-md `}
+      className={`${styles.flexCenter} bg-teal-100 my-4 sm:pr-3 py-3 rounded-md `}
     >
-      <p className="sm:mx-8 mx-3 uppercase sm:text-[16px] text-[14px] font-semibold tracking-wide text-teal-800 text-center ">
-        отправить сообщение
+      <p className=" mx-4 uppercase sm:text-[16px] text-[14px] font-semibold tracking-wide text-teal-800 text-center ">
+        свяжитесь со мной
       </p>
 
       <div className="flex space-x-2 justify-center mr-4">
         <button
           type="button"
-          className="inline-block sm:px-6 px-4 py-2.5 bg-teal-600 text-white font-medium text-xs  rounded-full shadow-md hover:bg-teal-700 hover:shadow-lg focus:bg-teal-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-teal-800 active:shadow-lg transition duration-150 ease-in-out "
+          className="inline-block sm:px-6 px-4 py-2.5 bg-red-600 text-white font-medium text-xs  rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out "
         >
-          <a href="mailto:dinara.idrissova@list.ru">
+          <a href="mailto:anekasina@mail.ru">
             <span>
               <FaRegEnvelope
-                className=" text-info 
+                className=" text-white 
               text-[26px] "
               />
             </span>
@@ -27,12 +27,12 @@ function GetStarted() {
         </button>
         <button
           type="button"
-          className="inline-block sm:px-6 px-4 py-2.5 bg-teal-600 text-white font-medium text-xs   rounded-full shadow-md hover:bg-teal-700 hover:shadow-lg focus:bg-teal-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-teal-800 active:shadow-lg transition duration-150 ease-in-out"
+          className="inline-block sm:px-6 px-4 py-2.5 bg-red-600 text-white font-medium text-xs   rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg transition duration-150 ease-in-out"
         >
           <a href="https://wa.me/14042457101">
             <span>
               <BsWhatsapp
-                className=" text-info 
+                className=" text-white 
               text-[26px]"
               />
             </span>
