@@ -4,11 +4,11 @@ import GetStarted from "./GetStarted";
 
 const Featurecard = ({ title, img, content, index, link }) => (
   <div
-    className={`flex flex-row py-4 items-center ${
+    className={`flex flex-col sm:flex-row sm:py-4 py-0 items-center ${
       index !== features.length - 1 ? "mb-1" : "mb-0"
     } `}
   >
-    <div className="w-1/3 ">
+    <div className="w-1/2 sm:w-1/3  my-5 sm:my-0">
       <a href={link && link} alt={title} target="_blank" rel="noreferrer">
         <img
           src={img}
@@ -30,8 +30,8 @@ const Featurecard = ({ title, img, content, index, link }) => (
 
 function ProsEng() {
   return (
-    <section id="features" className={`${layout.section} pt-16`}>
-      <div className="flex flex-col flex-1 justify-between my-8 ">
+    <section id="features" className={`${layout.section} pt-16 `}>
+      <div className="flex flex-col flex-1 justify-between my-8  ">
         <div className="space-y-6">
           <h2 className={styles.heading2}>
             Как проходят <br /> наши уроки
@@ -44,13 +44,18 @@ function ProsEng() {
             урока 40мин.
           </p>
         </div>
-        <GetStarted />
+        <div className="hidden sm:block">
+          <GetStarted />
+        </div>
       </div>
 
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
           <Featurecard key={feature.id} {...feature} index={index} />
         ))}
+      </div>
+      <div className="block sm:hidden">
+        <GetStarted />
       </div>
     </section>
   );

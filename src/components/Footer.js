@@ -4,7 +4,7 @@ function Footer() {
   return (
     <section
       id="contact"
-      className="sm:w-full w-[70vw] flex flex-col justify-center"
+      className="sm:w-full w-[70vw] flex flex-col justify-center mt-8"
     >
       <div className="shadow-inner h-[22px]  w-[200vw] -ml-[200px] "></div>
       <h2
