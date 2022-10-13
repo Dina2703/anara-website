@@ -42,7 +42,7 @@ function Navbar() {
                 index === navLinks.length - 1 ? "mr-10" : "mr-5"
               }  text-white text-base tracking-wider font-semibold`}
             >
-              <a href={`#${nav.id}`} className="text-[12px] md:text-[14px]">
+              <a href={`#${nav.id}`} className=" text-[12px]">
                 {nav.title}
               </a>
             </li>
