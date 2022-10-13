@@ -23,17 +23,17 @@ function Footer() {
             <div className="flex gap-3 items-center justify-center mb-2">
               <FaPhone /> телефон
             </div>
-            <p className="underline text-[#0000FF] ">+777 555 55 55</p>
+            <p className="underline text-[#0000FF] ">+7 747 702 70 55</p>
           </a>
         </div>
 
         <div className="mb-6">
-          <a href="https://wa.me/14042457101">
+          <a href="https://wa.me/77477027055">
             <div className="flex gap-3 items-center justify-center text-dimWhite mb-2">
               <FaWhatsappSquare className="text-[24px]" />
               WhatsApp
             </div>
-            <p className="underline text-[#0000FF] ">+777 555 55 55</p>
+            <p className="underline text-[#0000FF] ">+7 747 702 70 55</p>
           </a>
         </div>
         <div className="mb-6">
@@ -42,7 +42,7 @@ function Footer() {
               <FaRegEnvelope className="text-[24px]" /> электронная почта
             </div>
             <p className="underline text-[#0000FF] text-center">
-              example@gmail.com
+              anekasina@mail.ru
             </p>
           </a>
         </div>

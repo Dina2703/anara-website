@@ -18,7 +18,7 @@ const SocialVerticalLinks = () => (
       </div>
 
       <div className="flex ">
-        <a href="https://wa.me/14042457101" title="напишите в  WhatsApp">
+        <a href="https://wa.me/77477027055" title="напишите в  WhatsApp">
           <svg
             className="fill-green-600 hover:fill-white m-auto"
             xmlns="http://www.w3.org/2000/svg"

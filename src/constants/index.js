@@ -207,7 +207,7 @@ export const socialMedia = [
   {
     id: "whatsapp",
     icon: FaWhatsappSquare,
-    link: "https://wa.me/14042457101",
+    link: "https://wa.me/77477027055",
   },
   {
     id: "phone",
