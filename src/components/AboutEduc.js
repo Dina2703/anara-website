@@ -11,7 +11,7 @@ function AboutEduc() {
           <li>Мама двух прекрасных мальчиков </li>
         </ul>
       </div>
-      <div className="flex flex-col sm:text-[20px] text-[16px]  text-sm mx-4 mt-6 md:mt-0">
+      <div className="flex flex-col sm:text-[20px] text-[16px] mt-3 sm:mt-0">
         <h3 className="font-bold  text-white mb-2">Образование:</h3>
         <ul className="text-justify italic text-dimWhite list-disc text-[14px]  sm:text-[18px]">
           <li>Университет КазУМОиМЯ им. Абылай хана, Алматы.</li>

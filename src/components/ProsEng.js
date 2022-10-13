@@ -31,8 +31,8 @@ const Featurecard = ({ title, img, content, index, link }) => (
 function ProsEng() {
   return (
     <section id="features" className={`${layout.section} pt-16`}>
-      <div className="flex flex-col flex-1 justify-between ">
-        <div className="space-y-10">
+      <div className="flex flex-col flex-1 justify-between my-8 ">
+        <div className="space-y-6">
           <h2 className={styles.heading2}>
             Как проходят <br /> наши уроки
             <span className="bg-discount-gradient px-2 block max-w-[400px] tracking-wider italic">
