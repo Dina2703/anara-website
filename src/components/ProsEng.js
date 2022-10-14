@@ -31,7 +31,7 @@ const Featurecard = ({ title, img, content, index, link }) => (
 function ProsEng() {
   return (
     <section id="features" className={`${layout.section} sm:pt-16  `}>
-      <div className="flex flex-col flex-1 justify-between sm:my-8   ">
+      <div className="flex flex-col flex-1 justify-around sm:my-8   ">
         <div className="space-y-6">
           <h2 className={styles.heading2}>
             Как проходят <br /> наши уроки
