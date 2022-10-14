@@ -73,9 +73,9 @@ function Navbar() {
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}
-                  className={`font-mono font-normal cursor-pointer text-[16px] hover:underline ${
+                  className={`font-mono cursor-pointer text-[16px] leading-[12px] hover:underline  ${
                     index === navLinks.length - 1 ? "mr-0" : "mb-4"
-                  }  text-gray-600 text-base mr-6`}
+                  }  text-gray-600  mr-6`}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
