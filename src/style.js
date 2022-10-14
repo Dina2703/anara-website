@@ -4,9 +4,9 @@ const styles = {
   heading1:
     "font-poppins font-semibold xs:text-[28px] text-[20px] text-white xs:leading-[36.8px] leading-[26.8px] w-full",
   heading2:
-    "font-poppins font-semibold xs:text-[36px] text-[28px] text-white xs:leading-[66.8px] leading-[56.8px] w-full",
+    "font-poppins font-semibold xs:text-[36px] text-[28px] text-white xs:leading-[66.8px] leading-[46.8px] w-full",
   paragraph:
-    "font-poppins font-normal text-dimWhite text-[12px] sm:text-[16px] leading-[26.8px] ",
+    "font-poppins text-justify text-dimWhite text-[16px] sm:text-[16px] leading-[26.8px] ",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",

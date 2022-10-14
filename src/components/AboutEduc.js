@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutEduc() {
   return (
-    <div className="flex  md:flex-row flex-col mb-2 sm:mb-5 sm:mx-10 text-center px-8  justify-between">
+    <div className="flex  md:flex-row flex-col mb-2 sm:mb-5 sm:mx-auto text-center px-8  justify-between">
       <div className="flex flex-col   sm:text-[20px] text-[16px]  ">
         <h3 className="font-bold text-white mb-2">Факты обо мне</h3>
         <ul className="text-justify italic text-dimWhite list-disc text-[14px]  sm:text-[18px]">

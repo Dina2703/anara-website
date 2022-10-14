@@ -8,7 +8,7 @@ const Featurecard = ({ title, img, content, index, link }) => (
       index !== features.length - 1 ? "mb-1" : "mb-0"
     } `}
   >
-    <div className="w-[75%] sm:w-1/3  my-5 sm:my-0">
+    <div className="w-[80%] sm:w-1/3  my-5  sm:my-0">
       <a href={link && link} alt={title} target="_blank" rel="noreferrer">
         <img
           src={img}
@@ -18,10 +18,10 @@ const Featurecard = ({ title, img, content, index, link }) => (
       </a>
     </div>
     <div className="flex-1 flex flex-col  ml-3">
-      <h4 className="font-poppins font-semibold text-white  text-[15px] leading-[18px] mb-2">
+      <h4 className="font-poppins font-semibold text-white  text-[16px] leading-[18px] mb-2 text-center">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-dimWhite text-[13px] leading-[24px]">
+      <p className="font-poppins font-normal text-dimWhite text-[15px] leading-[24px] text-justify">
         {content}
       </p>
     </div>
@@ -30,8 +30,8 @@ const Featurecard = ({ title, img, content, index, link }) => (
 
 function ProsEng() {
   return (
-    <section id="features" className={`${layout.section} pt-16 `}>
-      <div className="flex flex-col flex-1 justify-between sm:my-8 my-1  ">
+    <section id="features" className={`${layout.section} sm:pt-16  `}>
+      <div className="flex flex-col flex-1 justify-between sm:my-8   ">
         <div className="space-y-6">
           <h2 className={styles.heading2}>
             Как проходят <br /> наши уроки
@@ -39,9 +39,9 @@ function ProsEng() {
               английского языка
             </span>
           </h2>
-          <p className="font-poppins font-normal text-dimWhite text-[16px]  mt-5 ">
-            Уроки проходят в группе или индивидуально. Длительность каждого
-            урока 40мин.
+          <p className="font-poppins font-normal text-dimWhite text-[16px]  mt-5 text-justify ">
+            Длительность занятии: индивидуальные - 50 мин, в паре - 60 мин, в
+            группе - 70 мин.
           </p>
         </div>
         <div className="hidden sm:block">
@@ -49,7 +49,7 @@ function ProsEng() {
         </div>
       </div>
 
-      <div className={`${layout.sectionImg} flex-col`}>
+      <div className={`${layout.sectionImg} flex-col -mt-1 `}>
         {features.map((feature, index) => (
           <Featurecard key={feature.id} {...feature} index={index} />
         ))}
