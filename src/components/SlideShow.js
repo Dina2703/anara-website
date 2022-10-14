@@ -1,19 +1,17 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, EffectFade } from "swiper";
+import { Autoplay, EffectCards } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/effect-fade";
+import "swiper/css/effect-cards";
 
 function SlideShow() {
   return (
     <div className="w-[330px] sm:w-[400px] mx-auto ">
       <Swiper
-        slidesPerView={1}
-        modules={[Autoplay, EffectFade]}
+        modules={[Autoplay, EffectCards]}
         autoplay={{ delay: 5000 }}
-        speed={1200}
-        loop
-        effect={"fade"}
+        speed={2000}
+        effect="cards"
       >
         <SwiperSlide>
           <img src="/anara01.jpeg" alt="anara" />

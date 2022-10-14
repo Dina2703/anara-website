@@ -1,11 +1,11 @@
 import styles, { layout } from "../style";
-import SlideShow from "./Carousel";
+import SlideShow from "./SlideShow";
 
 function About() {
   return (
     <section className={`${layout.section} pt-6`}>
       <div className={layout.sectionImgReverse}>
-        <div className="w-[85%] h-[100%]  ">
+        <div className="w-[90%] h-[100%]  ">
           <SlideShow />
         </div>
       </div>

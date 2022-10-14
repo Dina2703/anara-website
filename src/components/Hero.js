@@ -34,11 +34,11 @@ function Hero() {
           <img
             src="./hero-2.jpg"
             alt="английский класс для детей и взрослых"
-            className="  w-[65%] h-[100%] sm:w-[90%] sm:h-[100%] md:w-[100%] sm:h-[80%] border-4 sm:mr-16 border-amber-200 border-y-amber-400 rounded"
+            className="  w-[80%] h-[100%] sm:w-[90%] sm:h-[100%] md:w-[100%] sm:h-[80%] border-4 sm:mr-16 border-amber-200 border-y-amber-400 rounded"
           />
         </div>
       </div>
-      <p className="font-poppins text-dimWhite px-14 text-[16px] sm:text-sm  text-left tracking-wider">
+      <p className="font-poppins text-dimWhite px-8 text-[16px] sm:text-sm  text-justify ">
         Современный мир сейчас невозможен без знания английского языка. Знание
         английского языка открывает перед человеком широкую картину мира,
         возможность получить образование за границей, найти престижную работу и

@@ -7,10 +7,7 @@ function GetStarted() {
     <div
       className={`${styles.flexCenter} bg-teal-100 my-4 sm:pr-3 py-3 rounded-md `}
     >
-      <p className="block sm:hidden mx-4 uppercase  text-[12px] font-semibold tracking-wide text-teal-800 text-center ">
-        свяжитесь <br /> со мной
-      </p>
-      <p className="sm:block hidden  mx-4 uppercase text-[16px]  font-semibold tracking-wide text-teal-800 text-center ">
+      <p className=" mx-4 uppercase text-[12px] sm:text-[16px]  font-semibold tracking-wide text-teal-800 text-center ">
         свяжитесь со мной
       </p>
 
