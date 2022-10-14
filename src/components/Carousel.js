@@ -1,26 +1,30 @@
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, EffectFade } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/effect-fade";
 
 function SlideShow() {
   return (
-    <div>
-      <Carousel
-        autoPlay
-        interval={4000}
-        showThumbs={false}
-        infiniteLoop
-        showStatus={false}
+    <div className="w-[330px] sm:w-[400px] mx-auto ">
+      <Swiper
+        slidesPerView={1}
+        modules={[Autoplay, EffectFade]}
+        autoplay={{ delay: 5000 }}
+        speed={1200}
+        loop
+        effect={"fade"}
       >
-        <div>
+        <SwiperSlide>
           <img src="/anara01.jpeg" alt="anara" />
-        </div>
-        <div>
+        </SwiperSlide>
+        <SwiperSlide>
           <img src="/anara02.jpeg" alt="anara" />
-        </div>
-        <div>
+        </SwiperSlide>
+        <SwiperSlide>
           <img src="/anara03.jpeg" alt="anara" />
-        </div>
-      </Carousel>
+        </SwiperSlide>
+      </Swiper>
     </div>
   );
 }

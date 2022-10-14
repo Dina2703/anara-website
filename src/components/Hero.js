@@ -11,7 +11,7 @@ function Hero() {
         >
           <div className="flex flex-row items-center py-[6px] px-4  mb-4 mr-3 bg-discount-gradient rounded mt-4">
             <FaGift className="w-[28px] h-[28px] sm:w-[48px] sm:h-[48px] text-white" />
-            <p className="font-poppins font-normal text-dimWhite sm:text-[18px] sm:leading-[24.8px]  ml-4 text-[12px] leading-[10.8px] ">
+            <p className="font-poppins font-normal text-dimWhite sm:text-[18px] sm:leading-[24.8px]  ml-4 text-[16px] leading-[18.8px] ">
               <span> Бесплатный </span>
               пробный урок!!! <br />
               <span>И тестирование уровня английского языка!</span>
@@ -21,9 +21,9 @@ function Hero() {
           </div>
 
           <div className="flex flex-row  justify-between text-center sm:text-left items-center w-full ">
-            <h1 className="flex-1 font-poppins font-semibold sm:text-[48px] text-[42px] text-white leading-[55px] ss:leading-[75px]">
+            <h1 className="flex-1 font-poppins font-semibold sm:text-[48px] text-[38px] text-white leading-[55px] ss:leading-[75px]">
               IT'S TIME <br className="hidden sm:block " /> TO LEARN <br />
-              <span className="text-info text-[50px] sm:text-[70px] ">
+              <span className="text-info text-[40px] sm:text-[70px] ">
                 ENGLISH
               </span>
             </h1>
@@ -38,7 +38,7 @@ function Hero() {
           />
         </div>
       </div>
-      <p className="font-poppins text-dimWhite px-14 text-[12px] sm:text-sm  text-center tracking-wider">
+      <p className="font-poppins text-dimWhite px-14 text-[16px] sm:text-sm  text-left tracking-wider">
         Современный мир сейчас невозможен без знания английского языка. Знание
         английского языка открывает перед человеком широкую картину мира,
         возможность получить образование за границей, найти престижную работу и
