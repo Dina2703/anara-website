@@ -11,35 +11,41 @@ function Footer() {
         className=" text-center my-4 font-bold text-white uppercase  text-[30px] tracking-widest 
       "
       >
-        Контактные данные
+        Контакты
       </h2>
 
       <div className=" flex flex-col sm:flex-row justify-around h-full items-center ">
-        <div className="mb-6">
+        <div className="mb-4">
           <a
             href="tel:+YOURNUMBERHERE"
-            className="flex flex-col text-dimWhite "
+            className="flex sm:inline justify-between w-[300px]"
           >
-            <div className="flex gap-3 items-center justify-center mb-2">
+            <div className="flex gap-3 items-center justify-center text-dimWhite mb-2">
               <FaPhone /> телефон
             </div>
             <p className="underline text-[#0000FF] ">+7 747 702 70 55</p>
           </a>
         </div>
 
-        <div className="mb-6">
-          <a href="https://wa.me/77477027055">
+        <div className="mb-4">
+          <a
+            href="https://wa.me/77477027055 "
+            className="flex sm:inline justify-between w-[300px]"
+          >
             <div className="flex gap-3 items-center justify-center text-dimWhite mb-2">
               <FaWhatsappSquare className="text-[24px]" />
-              WhatsApp
+              whatsApp
             </div>
             <p className="underline text-[#0000FF] ">+7 747 702 70 55</p>
           </a>
         </div>
-        <div className="mb-6">
-          <a href="mailto:anekasina@mail.ru">
+        <div className="mb-4">
+          <a
+            href="mailto:anekasina@mail.ru"
+            className="flex sm:inline justify-between w-[300px]"
+          >
             <div className="flex gap-3 items-center justify-center text-dimWhite mb-2">
-              <FaRegEnvelope className="text-[24px]" /> электронная почта
+              <FaRegEnvelope className="text-[24px]" /> эл. почта
             </div>
             <p className="underline text-[#0000FF] text-center">
               anekasina@mail.ru
