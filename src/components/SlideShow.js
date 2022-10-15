@@ -6,7 +6,7 @@ import "swiper/css/effect-cards";
 
 function SlideShow() {
   return (
-    <div className="w-[330px] sm:w-[360px]  mx-auto sm:mt-8 mt-0">
+    <div className="w-[280px] sm:w-[360px]  mx-auto sm:mt-8 mt-0">
       <Swiper
         grabCursor
         modules={[Autoplay, EffectCards]}
