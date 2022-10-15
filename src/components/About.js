@@ -12,7 +12,7 @@ function About() {
       <div className={`${layout.sectionInfo} text-center mt-4 md:mt-0`}>
         <h2 className={styles.heading1}>Hi there!</h2>
         <p
-          className={`${styles.paragraph}  md:max-w-[470px] mt-3 tracking-wider`}
+          className={`${styles.paragraph}  md:max-w-[470px] mt-3 tracking-wider `}
         >
           Рада знакомству! <span className="ml-[12px]"></span> Меня зовут Анара
           и я - дипломированный учитель английского языка. Владение английским
