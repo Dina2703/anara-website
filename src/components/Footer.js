@@ -8,14 +8,14 @@ function Footer() {
     >
       <div className="shadow-inner h-[22px]  w-[200vw] -ml-[200px] "></div>
       <h2
-        className=" text-center my-4 font-bold text-white uppercase  text-[30px] tracking-widest 
+        className=" text-center my-4 font-bold text-white uppercase  text-[18px] tracking-widest 
       "
       >
         Контакты
       </h2>
 
       <div className=" flex flex-col sm:flex-row justify-around h-full items-center ">
-        <div className="mb-4">
+        <div className="mb-2">
           <a
             href="tel:+YOURNUMBERHERE"
             className="flex sm:inline justify-between w-[300px]"
@@ -27,7 +27,7 @@ function Footer() {
           </a>
         </div>
 
-        <div className="mb-4">
+        <div className="mb-2">
           <a
             href="https://wa.me/77477027055 "
             className="flex sm:inline justify-between w-[300px]"
@@ -39,7 +39,7 @@ function Footer() {
             <p className="underline text-[#0000FF] ">+7 747 702 70 55</p>
           </a>
         </div>
-        <div className="mb-4">
+        <div className="mb-3">
           <a
             href="mailto:anekasina@mail.ru"
             className="flex sm:inline justify-between w-[300px]"

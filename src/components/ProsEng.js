@@ -40,8 +40,8 @@ function ProsEng() {
             </span>
           </h2>
           <p className="font-poppins font-normal text-dimWhite text-[16px]  mt-5 text-justify ">
-            Длительность занятии: индивидуальные - 50 мин, в паре - 60 мин, в
-            группе - 70 мин.
+            Длительность занятии: <br /> индивидуальные - 50 мин, в паре - 60
+            мин, в группе - 70 мин.
           </p>
         </div>
         <div className="hidden sm:block">
