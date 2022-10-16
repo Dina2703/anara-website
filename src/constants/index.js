@@ -193,12 +193,12 @@ export const socialMedia = [
   {
     id: "instagram",
     icon: FaInstagramSquare,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/anara_2621 ",
   },
   {
     id: "tiktok",
     icon: FaTiktok,
-    link: "https://www.tiktok.com/",
+    link: "https://www.tiktok.com/anara2621",
   },
   {
     id: "whatsapp",
