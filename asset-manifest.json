@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/anara-website/static/css/main.393d319a.css",
+    "main.js": "/anara-website/static/js/main.3a4e2661.js",
+    "index.html": "/anara-website/index.html",
+    "main.393d319a.css.map": "/anara-website/static/css/main.393d319a.css.map",
+    "main.3a4e2661.js.map": "/anara-website/static/js/main.3a4e2661.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.393d319a.css",
+    "static/js/main.3a4e2661.js"
+  ]
+}
