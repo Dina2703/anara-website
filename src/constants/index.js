@@ -116,13 +116,6 @@ export const features = [
     title: "Увлекательные и интерактивные уроки.",
     link: "https://www.gamestolearnenglish.com/",
   },
-  // {
-  //   id: "4",
-  //   content:
-  //     "Study English online right from the comfort of your home. This means less commuting time and better opportunities to create a study space that inspires you and makes you feel comfortable.",
-  //   img: "./books.svg",
-  //   title: " Greater flexibility and convenience",
-  // },
 ];
 
 export const stats = [
@@ -158,34 +151,6 @@ export const stats = [
     title:
       "Английский язык является основным для большей части международного образования.",
     value: "⭐️",
-  },
-];
-
-export const footerLinks = [
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
   },
 ];
 

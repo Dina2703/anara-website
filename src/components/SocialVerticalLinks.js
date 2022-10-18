@@ -37,7 +37,7 @@ const SocialVerticalLinks = () => (
           title="ищите в Instagram"
         >
           <svg
-            className="fill-red-100 hover:bg-slate-50 hover:rounded-[10px] m-auto w-[25px] h-[25px] sm:w-[35px] sm:h-[30px]"
+            className="fill-red-100 hover:bg-slate-50 hover:rounded-[10px] m-auto w-[25px] h-[25px] sm:w-[30px] sm:h-[30px]"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 16 16"
           >
