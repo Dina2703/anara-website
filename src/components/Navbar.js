@@ -31,7 +31,7 @@ function Navbar() {
       className={`${styles.paddingX} ${styles.flexCenter} w-full  flex pt-5 pb-4  bg-primary shadow-lg justify-center items-center  sticky top-0 z-[100] cursor-pointer `}
     >
       <div className={`${styles.boxWidth} flex w-[90%] md:w-[80%] `}>
-        <h1 className="font-extrabold text-white text-2xl sm:text-3xl tracking-wider ">
+        <h1 className="font-extrabold text-white text-xl sm:text-3xl tracking-wider ">
           English with Anara
         </h1>
         <ul className="list-none md:flex hidden justify-end items-end flex-1  uppercase">
@@ -53,12 +53,12 @@ function Navbar() {
         <div className="md:hidden flex flex-1 justify-end items-center">
           {isMenuOpen ? (
             <FaTimes
-              className="w-[32px] h-[32px] object-contain text-white"
+              className="w-[26px] h-[26px] object-contain text-white"
               onClick={() => setIsMenuOpen((prev) => !prev)}
             />
           ) : (
             <FaBars
-              className="w-[32px] h-[32px] object-contain text-white"
+              className="w-[26px] h-[26px] object-contain text-white"
               onClick={() => setIsMenuOpen((prev) => !prev)}
             />
           )}
