@@ -163,7 +163,7 @@ export const socialMedia = [
   {
     id: "tiktok",
     icon: FaTiktok,
-    link: "https://www.tiktok.com/anara2621",
+    link: "https://www.tiktok.com/@anara_2621",
   },
   {
     id: "whatsapp",

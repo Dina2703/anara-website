@@ -2,7 +2,7 @@ const SocialVerticalLinks = () => (
   <section>
     <div className="fixed flex left-0 top-1/4 z-50 px-3 sm:px-7 lg:px-10 py-2 bg-transparent flex flex-col space-y-3">
       <div className="flex justify-center ">
-        <a href="https://www.tiktok.com/anara2621" title="ищите в  Tiktok">
+        <a href="https://www.tiktok.com/@anara_2621" title="ищите в  Tiktok">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
