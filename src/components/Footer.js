@@ -54,7 +54,7 @@ function Footer() {
         </div>
       </div>
 
-      <p className="text-[12px] p-3 text-center text-[#3B3B38] mt-6">
+      <p className="text-[12px]  text-center text-[#3B3B38] my-3  w-full">
         Copyright &copy; 2022. All rights reserved. <br /> Website created by
         <a
           className="underline pl-1"

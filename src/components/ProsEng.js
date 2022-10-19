@@ -4,7 +4,7 @@ import GetStarted from "./GetStarted";
 
 const Featurecard = ({ title, img, content, index, link }) => (
   <div
-    className={`flex flex-col sm:flex-row sm:py-4 py-0 items-center ${
+    className={`flex flex-col sm:flex-row sm:py-4 py-0 items-center  ${
       index !== features.length - 1 ? "mb-1" : "mb-0"
     } `}
   >
@@ -21,7 +21,7 @@ const Featurecard = ({ title, img, content, index, link }) => (
       <h4 className="font-poppins font-semibold text-white  text-[16px] leading-[18px] mb-2 text-center">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-dimWhite text-[15px] leading-[24px] text-justify">
+      <p className="font-poppins font-normal text-dimWhite text-[15px] leading-[24px] text-left">
         {content}
       </p>
     </div>
