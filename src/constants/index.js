@@ -13,7 +13,7 @@ export const navLinks = [
   },
   {
     id: "about-me",
-    title: "обо Mне",
+    title: "Обо Mне",
   },
   {
     id: "clients",
@@ -21,7 +21,7 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "о Курсе",
+    title: "О Курсе",
   },
   {
     id: "contact",
