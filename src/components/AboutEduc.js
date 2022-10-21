@@ -7,8 +7,8 @@ function AboutEduc() {
         <h3 className="font-bold text-white mb-2">Факты обо мне</h3>
         <ul className="text-justify italic text-dimWhite list-disc text-[14px]  sm:text-[18px]">
           <li>Говорю свободно на 4 языках.</li>
-          <li>Стажировку проходила в Англии</li>
-          <li>Мама двух прекрасных мальчиков </li>
+          <li>Стажировку проходила в Англии.</li>
+          <li>Мама двух прекрасных мальчиков. </li>
         </ul>
       </div>
       <div className="flex flex-col sm:text-[20px] text-[16px] mt-3 sm:mt-0">
