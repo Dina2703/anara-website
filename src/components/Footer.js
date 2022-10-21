@@ -3,7 +3,7 @@ import { FaPhone, FaRegEnvelope, FaWhatsappSquare } from "react-icons/fa";
 function Footer() {
   return (
     <section
-      id="contact"
+      id="контакты-english-with-anara"
       className="sm:w-full w-[60vw] flex flex-col justify-center mt-8"
     >
       <div className="shadow-inner h-[22px] w-[300%] -ml-[300px] "></div>

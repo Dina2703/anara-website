@@ -30,12 +30,15 @@ const Featurecard = ({ title, img, content, index, link }) => (
 
 function ProsEng() {
   return (
-    <section id="features" className={`${layout.section} sm:pt-16  `}>
+    <section
+      id="курс-английского-english-with-anara"
+      className={`${layout.section} sm:pt-16  `}
+    >
       <div className="flex flex-col flex-1 justify-around sm:my-8   ">
         <div className="space-y-6 uppercase">
           <h2 className={styles.heading2}>
             Как проходят <br className="hidden sm:block" /> наши уроки
-            <span className="bg-discount-gradient px-2 block max-w-[400px] tracking-wider italic">
+            <span className="bg-discount-gradient px-2 block max-w-[400px] tracking-widest italic text-[17px] sm:text-[30.5px]">
               английского языка
             </span>
           </h2>

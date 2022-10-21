@@ -14,7 +14,6 @@ const App = () => {
         <div className="flex-1 min-h-[100%]">
           <div className={`bg-primary ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
-              <div id="home"></div>
               <Hero />
             </div>
           </div>

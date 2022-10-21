@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 export default function SwiperReviews() {
   return (
-    <div className=" w-[100%] " id="clients">
+    <div className=" w-[100%] " id="отзывы-english-with-anara">
       <Swiper
         slidesPerView={1}
         modules={[Autoplay, Pagination]}

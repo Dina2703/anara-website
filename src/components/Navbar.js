@@ -69,11 +69,11 @@ function Navbar() {
               isMenuOpen ? "flex" : "hidden"
             } p-5 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar `}
           >
-            <ul className="list-none flex flex-col justify-end items-center flex-1">
+            <ul className="list-none flex flex-col justify-end items-left flex-1">
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}
-                  className={`font-mono  cursor-pointer text-[13px] tracking-wide leading-[12px] hover:underline  ${
+                  className={`font-poppins  cursor-pointer text-[10px] tracking-widest  leading-[5px] hover:underline uppercase font-semibold ${
                     index === navLinks.length - 1 ? "mr-0" : "mb-4"
                   }  text-gray-600  `}
                 >

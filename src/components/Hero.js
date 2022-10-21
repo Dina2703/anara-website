@@ -4,7 +4,7 @@ import { FaGift } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section id="home" className="md:mx-12 pt-15 ">
+    <section id="главное-english-with-anara" className="md:mx-12 pt-15 ">
       <div className={`flex flex-col sm:flex-row  `}>
         <div
           className={`flex-1 ${styles.flexStart} flex-col px-6 sm:pl-16 lg:px-6`}
@@ -49,7 +49,10 @@ function Hero() {
         запасы, и уже за пару лет дети говорят на английском практически без
         акцента.
       </p>
-      <div className={`${styles.flexCenter} `} id="about-me">
+      <div
+        className={`${styles.flexCenter} `}
+        id="анара-учитель-английского-языка"
+      >
         <GetStarted />
       </div>
     </section>

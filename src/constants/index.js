@@ -8,23 +8,23 @@ import {
 
 export const navLinks = [
   {
-    id: "home",
+    id: "главное-english-with-anara",
     title: "Главное",
   },
   {
-    id: "about-me",
+    id: "анара-учитель-английского-языка",
     title: "Обо Mне",
   },
   {
-    id: "clients",
+    id: "отзывы-english-with-anara",
     title: "Отзывы",
   },
   {
-    id: "features",
+    id: "курс-английского-english-with-anara",
     title: "О Курсе",
   },
   {
-    id: "contact",
+    id: "контакты-english-with-anara",
     title: "Контакты",
   },
 ];
@@ -176,7 +176,7 @@ export const socialMedia = [
     link: "tel:+YOURNUMBERHERE",
   },
   {
-    id: "mail",
+    id: "email",
     icon: FaEnvelope,
     link: "mailto:anekasina@mail.ru",
   },
