@@ -73,7 +73,7 @@ function Navbar() {
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}
-                  className={`font-poppins  cursor-pointer text-[10px] tracking-widest  leading-[5px] hover:underline uppercase font-semibold ${
+                  className={`font-poppins  cursor-pointer text-[12px] tracking-widest  leading-[8px] hover:underline uppercase font-semibold ${
                     index === navLinks.length - 1 ? "mr-0" : "mb-4"
                   }  text-gray-600  `}
                 >
