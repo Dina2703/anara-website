@@ -6,15 +6,15 @@ function Footer() {
       id="contact"
       className="sm:w-full w-[60vw] flex flex-col justify-center mt-8"
     >
-      <div className="shadow-inner h-[22px]  w-[200vw] -ml-[100px] "></div>
+      <div className="shadow-inner h-[22px] w-[300%] -ml-[300px] "></div>
       <h2
-        className=" text-center my-4 font-bold text-white uppercase  text-[18px] tracking-widest 
+        className=" text-center my-4 font-bold text-white uppercase  text-[14px] sm:text-[16px] tracking-widest 
       "
       >
         Контакты
       </h2>
 
-      <div className=" flex flex-col sm:flex-row justify-around h-full items-center ">
+      <div className=" flex flex-col sm:flex-row justify-around h-full items-center text-[14px] sm:text-[17px]">
         <div className="mb-2">
           <a
             href="tel:+YOURNUMBERHERE"

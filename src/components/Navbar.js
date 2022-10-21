@@ -67,15 +67,15 @@ function Navbar() {
           <div
             className={`${
               isMenuOpen ? "flex" : "hidden"
-            } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar `}
+            } p-5 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar `}
           >
             <ul className="list-none flex flex-col justify-end items-center flex-1">
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}
-                  className={`font-mono cursor-pointer text-[16px] leading-[12px] hover:underline  ${
+                  className={`font-mono  cursor-pointer text-[13px] tracking-wide leading-[12px] hover:underline  ${
                     index === navLinks.length - 1 ? "mr-0" : "mb-4"
-                  }  text-gray-600  mr-6`}
+                  }  text-gray-600  `}
                 >
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>

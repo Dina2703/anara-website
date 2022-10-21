@@ -10,8 +10,8 @@ function Hero() {
           className={`flex-1 ${styles.flexStart} flex-col px-6 sm:pl-16 lg:px-6`}
         >
           <div className="flex flex-row items-center py-[6px] px-4  mb-4 mr-3 bg-discount-gradient rounded mt-4">
-            <FaGift className="w-[36px] h-[36px] sm:w-[48px] sm:h-[48px] text-white" />
-            <p className="font-poppins font-normal text-white sm:text-[18px] sm:leading-[24.8px]  ml-4 text-[16px] leading-[18.8px] ">
+            <FaGift className="w-[32px] h-[32px] sm:w-[48px] sm:h-[48px] text-white" />
+            <p className="font-poppins font-normal text-white sm:text-[18px] sm:leading-[24.8px]  ml-4 text-[15px] leading-[18.8px] tracking-wider">
               <span> Бесплатный </span>
               пробный урок! <br />
               <span> + тестирование</span>
@@ -21,7 +21,7 @@ function Hero() {
           </div>
 
           <div className="flex flex-row  justify-between text-center sm:text-left items-center w-full ">
-            <h1 className="flex-1 font-poppins font-semibold sm:text-[48px] text-[38px] text-white leading-[45px] ss:leading-[75px]">
+            <h1 className="flex-1 font-poppins font-semibold sm:text-[48px] text-[32px] text-white leading-[45px] ss:leading-[75px]">
               IT'S TIME <br className="hidden sm:block " /> TO LEARN <br />
               <span className="text-info text-[40px] sm:text-[70px] ">
                 ENGLISH
@@ -38,7 +38,7 @@ function Hero() {
           />
         </div>
       </div>
-      <p className="font-poppins text-dimWhite px-8 text-[16px] sm:text-sm  text-left tracking-wide ">
+      <p className="font-poppins text-dimWhite px-8 text-[14px] sm:text-sm  text-left tracking-wide ">
         Современный мир сейчас невозможен без знания английского языка. Знание
         английского языка открывает перед человеком широкую картину мира,
         возможность получить образование за границей, найти престижную работу и

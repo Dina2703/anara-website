@@ -21,7 +21,7 @@ const Featurecard = ({ title, img, content, index, link }) => (
       <h4 className="font-poppins font-semibold text-white  text-[16px] leading-[18px] mb-2 text-center">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-dimWhite text-[15px] leading-[24px] text-left">
+      <p className="font-poppins font-normal text-dimWhite text-[14px] leading-[24px] text-left">
         {content}
       </p>
     </div>
@@ -32,16 +32,16 @@ function ProsEng() {
   return (
     <section id="features" className={`${layout.section} sm:pt-16  `}>
       <div className="flex flex-col flex-1 justify-around sm:my-8   ">
-        <div className="space-y-6">
+        <div className="space-y-6 uppercase">
           <h2 className={styles.heading2}>
-            Как проходят <br /> наши уроки
+            Как проходят <br className="hidden sm:block" /> наши уроки
             <span className="bg-discount-gradient px-2 block max-w-[400px] tracking-wider italic">
               английского языка
             </span>
           </h2>
-          <p className="font-poppins font-normal text-dimWhite text-[16px]  mt-5 text-justify ">
-            Длительность занятии: <br /> индивидуальные - 50 мин, в паре - 60
-            мин, в группе - 70 мин.
+          <p className="font-poppins font-semibold text-dimWhite text-[12px] sm:text-[16px] tracking-wider mt-5  text-center sm:text-left">
+            Длительность занятии: <br /> индивидуальные - 50 мин, <br /> в паре
+            - 60 мин, <br /> в группе - 70 мин.
           </p>
         </div>
         <div className="hidden sm:block">
