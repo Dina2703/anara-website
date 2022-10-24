@@ -9,17 +9,22 @@ function Hero() {
         <div
           className={`flex-1 ${styles.flexStart} flex-col px-6 sm:pl-16 lg:px-6`}
         >
-          <div className="flex flex-row items-center py-[6px] px-4  mb-4 mr-3 bg-discount-gradient rounded mt-4">
-            <FaGift className="w-[32px] h-[32px] sm:w-[48px] sm:h-[48px] text-white" />
-            <p className="font-poppins font-normal text-white sm:text-[18px] sm:leading-[24.8px]  ml-4 text-[15px] leading-[18.8px] tracking-wider">
-              <span> Бесплатный </span>
-              пробный урок! <br />
-              <span> + тестирование</span>
-              <br />
-              Запишись сегодня!
-            </p>
-          </div>
-
+          <a
+            href="https://wa.me/77477027055"
+            title="напишите в  WhatsApp"
+            className="cursor-pointer hover:underline text-white"
+          >
+            <div className="flex flex-row items-center py-[6px] px-4  mb-4 mr-3 bg-discount-gradient rounded mt-4">
+              <FaGift className="w-[32px] h-[32px] sm:w-[48px] sm:h-[48px] text-white" />
+              <p className="font-poppins font-normal text-white sm:text-[18px] sm:leading-[24.8px]  ml-4 text-[15px] leading-[18.8px] tracking-wider">
+                <span> Бесплатный </span>
+                пробный урок! <br />
+                <span> + тестирование</span>
+                <br />
+                Запишись сегодня!
+              </p>
+            </div>
+          </a>
           <div className="flex flex-row  justify-between text-center sm:text-left items-center w-full ">
             <h1 className="flex-1 font-poppins font-semibold sm:text-[48px] text-[32px] text-white leading-[45px] ss:leading-[75px]">
               IT'S TIME <br className="hidden sm:block " /> TO LEARN <br />
