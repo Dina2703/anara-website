@@ -2,7 +2,7 @@ import { FaPhone, FaRegEnvelope, FaWhatsappSquare } from "react-icons/fa";
 
 function Footer() {
   return (
-    <section
+    <footer
       id="контакты-english-with-anara"
       className="sm:w-full w-[60vw] flex flex-col justify-center mt-8"
     >
@@ -66,7 +66,7 @@ function Footer() {
         </a>
         .
       </p>
-    </section>
+    </footer>
   );
 }
 

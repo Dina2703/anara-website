@@ -40,7 +40,7 @@ function Hero() {
           <img
             src="./hero-2.jpg"
             alt="английский класс для детей и взрослых"
-            className="  w-[80%] h-[100%] sm:w-[90%] sm:h-[100%] md:w-[100%] sm:h-[80%] border-4 sm:mr-16 border-amber-200 border-y-amber-400 rounded"
+            className="  w-[80%] h-[100%] sm:w-[90%]  md:w-[100%] sm:h-[80%] border-4 sm:mr-16 border-amber-200 border-y-amber-400 rounded"
           />
         </div>
       </div>
